@@ -30,6 +30,7 @@
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+
 .modal-content {
   background-color: #fff;
   padding: 40px;
@@ -80,6 +81,8 @@
 
 .modal-pl {
   display: flex;
+  align-items: center;
+  column-gap: 10px;
 }
 
 .imput {
