@@ -1,3 +1,14 @@
+.button-modal, .hero .button, .hero__title, .hero, .container {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.supscription__button, .socials__link, .footer-button, .social-list__link, .social-list, .features .features-list__icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 a {
   text-decoration: none;
 }
@@ -33,8 +44,6 @@ body {
 
 .container {
   width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
 }
@@ -113,7 +122,6 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   max-width: 1600px;
-  margin: 0 auto;
 }
 .hero__title {
   font-weight: 900;
@@ -124,7 +132,6 @@ body {
   text-align: center;
   color: #ffffff;
   width: 696px;
-  margin: 0 auto;
   margin-bottom: 30px;
 }
 .hero .button {
@@ -134,7 +141,6 @@ body {
   letter-spacing: 0.06em;
   text-align: center;
   color: #fff;
-  margin: 0 auto;
   display: block;
   background-color: #2196f3;
   padding: 10px 32px;
@@ -158,9 +164,6 @@ body {
   height: 120px;
   background-color: #f5f4fa;
   margin-bottom: 30px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 .features .features-list__name {
   font-weight: 700;
@@ -212,20 +215,14 @@ body {
 }
 
 .social-list {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   margin-top: 28px;
   -moz-column-gap: 12px;
        column-gap: 12px;
 }
 .social-list__link {
-  display: flex;
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  align-items: center;
-  justify-content: center;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social-list__link:hover {
@@ -371,9 +368,6 @@ body {
 }
 
 .footer-button {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   -moz-column-gap: 10px;
        column-gap: 10px;
   width: 200px;
@@ -489,13 +483,10 @@ body {
 }
 
 .socials__link {
-  display: flex;
   width: 44px;
   height: 44px;
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
-  align-items: center;
-  justify-content: center;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -543,9 +534,6 @@ body {
 }
 
 .supscription__button {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   -moz-column-gap: 10px;
        column-gap: 10px;
   width: 200px;
@@ -725,7 +713,6 @@ label {
   border: none;
   border-radius: 4px;
   cursor: pointer;
-  margin: 0 auto;
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 16px;

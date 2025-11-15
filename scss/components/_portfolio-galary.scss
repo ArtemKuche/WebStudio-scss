@@ -130,9 +130,10 @@
 }
 
 .footer-button {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  @extend %flexed;
+  // display: flex;
+  // align-items: center;
+  // justify-content: center;
   column-gap: 10px;
   width: 200px;
   height: 50px;

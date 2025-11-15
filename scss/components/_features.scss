@@ -12,9 +12,10 @@
       height: 120px;
       background-color: #f5f4fa;
       margin-bottom: 30px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
+      @extend %flexed;
+      // display: flex;
+      // justify-content: center;
+      // align-items: center;
     }
     &__name {
       font-weight: 700;

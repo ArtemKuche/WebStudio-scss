@@ -7,7 +7,7 @@
   background-repeat: no-repeat;
   background-position: center;
   max-width: 1600px;
-  margin: 0 auto;
+  @extend %center-element;
   &__title {
   font-weight: 900;
   font-size: 44px;
@@ -17,7 +17,7 @@
   text-align: center;
   color: #ffffff;
   width: 696px;
-  margin: 0 auto;
+   @extend %center-element;
   margin-bottom: 30px;
 }
 .button {
@@ -27,7 +27,7 @@
   letter-spacing: 0.06em;
   text-align: center;
   color: #fff;
-  margin: 0 auto;
+  @extend %center-element;
   display: block;
   background-color: #2196f3;
   padding: 10px 32px;
